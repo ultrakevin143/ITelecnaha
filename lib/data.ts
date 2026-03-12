@@ -3,7 +3,7 @@ export const RESUME_DATA = {
   profile: {
     name: "My Portfolio",
     role: "Hi, I'm Kevin Mercado, Welcome to my webpage.",
-    bio: "Ai is the Future!",
+    bio: "On a mission to master my money. Trying to building assets & creating peace of mind.Just a guy who realized that 'wealth' is more about peace of mind than flashy purchases. I'm focusing on building a rock-solid financial foundation-saving, investing, and preparing for the future to live life on my own terms.",
     about: "I have knowledge in building a website, especially in the frontend. I also have small knowledge in backend with a guide of AI. I'm good at computers when it comes to typing. I got a lot of work experience that is not related to my course. I thrive in collaborative environments and enjoy working with people with good sense of humor",
     avatar: "/kev.jpg",
     social: [
@@ -11,7 +11,7 @@ export const RESUME_DATA = {
       { label: "Facebook", url: "https://www.facebook.com/osaka.kun.90" }
     ]
   },
-  skills: ["Next.js", "React", "Tailwind CSS", "TypeScript", "Node.js"],
+  skills: ["Next.js", "React", "Tailwind CSS", "TypeScript", "  Node.js"],
   experience: [
     {
       id: "job-1",
@@ -35,13 +35,21 @@ export const RESUME_DATA = {
     },
     {
       id: "ecommerce",
-      slug: "shopanalytics",
       title: "ShopAnalytics",
       category: "Web Application",
       description: "Ecommerce computer parts products",
       tech: ["React.js"],
       imageUrl: "/shop.jpg", 
       projectUrl: "https://lazappyv3.vercel.app/" 
+    }, {
+      id: "crypto",
+      slug: "https://kvnmr.netlify.app/",
+      title: "Current Bitcoin Price",
+      category: "Web Application",
+      description: "Fetch the currect price of Bitcoin",
+      tech: ["HTML, Fetch Api"],
+      imageUrl: "/bit.png", 
+      projectUrl: "https://kvnmr.netlify.app/" 
     }
   ],
   certificates: [

@@ -6,7 +6,7 @@ export function Footer() {
       <div className="container mx-auto max-w-5xl py-12 px-6">
         <div className="flex flex-col items-center justify-between gap-6 md:flex-row">
           <p className="text-sm text-muted-foreground">
-            © {new Date().getFullYear()} {RESUME_DATA.profile.name}. Built with Next.js & Tailwind v4.
+            © {new Date().getFullYear()} {RESUME_DATA.profile.name}. Built with Next.js & Tailwind .
           </p>
           <div className="flex gap-6">
             {RESUME_DATA.profile.social.map((link) => (
@@ -18,6 +18,7 @@ export function Footer() {
                 className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors"
               >
                 {link.label}
+                
               </a>
             ))}
           </div>

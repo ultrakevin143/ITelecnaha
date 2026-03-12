@@ -10,11 +10,11 @@ export function FeaturedProjects() {
         <Github className="w-5 h-5 text-emerald-500" />
         Featured Projects
       </h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         {RESUME_DATA.projects.map((project) => (
           <Link 
-            href={`/projects/${project.slug}`}
-            key={project.id} 
+             key={project.id}
+             href={`${project.projectUrl}`}
             className="group relative border rounded-xl overflow-hidden transition-all duration-300 bg-card hover:shadow-lg hover:scale-[1.02]"
           >
             <div className="w-full h-48 overflow-hidden bg-muted">
