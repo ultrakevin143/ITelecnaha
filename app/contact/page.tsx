@@ -26,7 +26,7 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <p className="text-sm font-medium text-muted-foreground">Email me at</p>
-                  <p className="text-lg font-semibold">@kevinmercado987@gmail.com</p>
+                  <p className="text-lg font-semibold">kevinmercado987@gmail.com</p>
                 </div>
               </div>
 

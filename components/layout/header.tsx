@@ -43,6 +43,9 @@ export function Header() {
   <Link href="/contact" className="text-sm font-medium hover:text-primary transition-colors">
     Contact
   </Link>
+  <Link href="/blog" className="text-sm font-medium hover:text-primary transition-colors">
+    Blog
+  </Link>
 </nav>
         </div>
 
