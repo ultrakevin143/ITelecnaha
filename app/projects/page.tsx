@@ -1,4 +1,4 @@
-import { FeaturedProjects } from "../../components/sections/projects";
+import { ProjectsList } from "@/components/features/projects/ProjectsList";
 
 export default function ProjectsPage() {
   return (
@@ -15,7 +15,7 @@ export default function ProjectsPage() {
 
       {}
       <div className="container mx-auto max-w-6xl px-6">
-        <FeaturedProjects />
+        <ProjectsList />
       </div>
     </div>
   );

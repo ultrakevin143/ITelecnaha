@@ -1,10 +1,9 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-// We use a relative path here to avoid the @ alias issues
-import { ThemeProvider } from "@/components/layout/theme-provider";
-import { Header } from "../components/layout/header";
-import { Footer } from "../components/layout/footer";
+import { ThemeProvider } from "@/components/provider/theme-provider";
+import { Header } from "@/components/common/Header";
+import { Footer } from "@/components/common/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 

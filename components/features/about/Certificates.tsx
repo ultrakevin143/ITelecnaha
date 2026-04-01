@@ -2,7 +2,7 @@
 import { RESUME_DATA } from "@/lib/data";
 import { Award, ExternalLink } from "lucide-react";
 import { useState } from "react";
-import { ZoomModal } from "../../components/zoom-modal";
+import { ZoomModal } from "@/components/common/ZoomModal";
 
 export function Certificates() {
   const [zoomImage, setZoomImage] = useState<string | null>(null);
