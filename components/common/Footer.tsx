@@ -1,4 +1,4 @@
-import { RESUME_DATA } from "../../lib/data";
+import { RESUME_DATA } from "@/lib/data";
 
 export function Footer() {
   return (

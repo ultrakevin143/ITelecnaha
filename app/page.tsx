@@ -1,8 +1,7 @@
-import { Hero } from "../components/sections/hero";
-import { Skills } from "../components/sections/skills";
-import { FeaturedProjects } from "../components/sections/projects";
-import { ContactCTA } from "../components/sections/cta"; // Import it here
-import { Aboutnakov2 } from "@/components/sections/aboutnakov2";
+import { Hero } from "@/components/features/home/Hero";
+import { Skills } from "@/components/features/about/Skills";
+import { ProjectsList } from "@/components/features/projects/ProjectsList";
+import { Cta as ContactCTA } from "@/components/common/Cta"; // Import it here
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 
@@ -12,23 +11,23 @@ export default function Home() {
       <Hero />
       <div className="grid grid-cols-1">
         <Skills />
-      </div>      
-      {}
+      </div>
+      { }
       <div className="space-y-10 pb-12">
-        <FeaturedProjects />
-        {}
+        <ProjectsList />
+        { }
         <div className="flex justify-center">
-          <Link 
-            href="/projects" 
+          <Link
+            href="/projects"
             className="flex items-center gap-5   px-8 py-4 bg-primary text-primary-foreground font-bold rounded-xl hover:opacity-90 transition-all shadow-sm hover:shadow-md"
           >
             View All Projects <ArrowRight className="w-5 h-5" />
           </Link>
-        
+
         </div>
         <ContactCTA />
-      </div>  
-      
+      </div>
+
     </div>
   );
 }

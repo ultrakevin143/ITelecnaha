@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 
-export function ContactCTA() {
+export function Cta() {
   return (
     <section className="py-1">
       <div className="bg-card border border-border rounded-3xl p-12 text-center space-y-8 shadow-2xl shadow-emerald-500/5">

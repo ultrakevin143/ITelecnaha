@@ -25,9 +25,7 @@ export const RESUME_DATA = {
   projects: [
     {
       id: "fcfs-sim",
-      slug: "fcfs-scheduler", 
       title: "FCFS Scheduler",
-      category: "System Tool",
       description: "A process scheduling visualizer demonstrating First-Come-First-Serve algorithms with real-time Gantt charts.",
       tech: ["Next.js", "Tailwind"],
       imageUrl: "/fcfs.jpg", 
@@ -36,16 +34,13 @@ export const RESUME_DATA = {
     {
       id: "ecommerce",
       title: "ShopAnalytics",
-      category: "Web Application",
       description: "Ecommerce computer parts products",
       tech: ["React.js"],
       imageUrl: "/shop.jpg", 
       projectUrl: "https://lazappyv3.vercel.app/" 
     }, {
       id: "crypto",
-      slug: "https://kvnmr.netlify.app/",
       title: "Current Bitcoin Price",
-      category: "Web Application",
       description: "Fetch the currect price of Bitcoin",
       tech: ["HTML, Fetch Api"],
       imageUrl: "/bit.png", 

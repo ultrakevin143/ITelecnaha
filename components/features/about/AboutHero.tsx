@@ -2,12 +2,12 @@
 import { RESUME_DATA } from "@/lib/data";
 import { User, Download } from "lucide-react";
 
-export function Aboutnakov2() {
+export function AboutHero() {
   return (
     <section className="space-y-2">
       {/* Container for Name + Picture */}
       <div className="flex flex-col-reverse md:flex-row md:items-center justify-between gap-5">
-        
+
         {/* Left Side: Name and Role */}
         <div className="space-y-2">
           <div className="space-y-2">
@@ -24,9 +24,9 @@ export function Aboutnakov2() {
 
           {/* Download CV Button Added Here */}
           <div className="pt-4">
-            <a 
-              href="/Kevin_Mercado_CV.pdf" 
-              download 
+            <a
+              href="/Kevin_Mercado_CV.pdf"
+              download
               className="inline-flex items-center gap-2 px-4 py-2 bg-emerald-500 text-black font-bold rounded-lg hover:bg-emerald-400 transition-colors shadow-lg shadow-emerald-500/20"
             >
               <Download className="w-4 h-4" />
@@ -38,8 +38,8 @@ export function Aboutnakov2() {
         {/* Right Side: Your Picture */}
         <div className="relative group">
           <div className="w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden border-4 border-emerald-500/20 shadow-2xl shadow-emerald-500/10 transition-transform duration-500 group-hover:scale-105">
-            <img 
-              src={RESUME_DATA.profile.avatar} 
+            <img
+              src={RESUME_DATA.profile.avatar}
               alt={RESUME_DATA.profile.name}
               className="w-full h-full object-cover"
             />

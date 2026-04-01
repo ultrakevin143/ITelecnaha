@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useState, useRef } from "react";
 import { useTheme } from "next-themes";
-import { RESUME_DATA } from "../../lib/data";
+import { RESUME_DATA } from "@/lib/data";
 import { Moon, Sun, Volume2, VolumeX } from "lucide-react";
 
 export function Header() {
